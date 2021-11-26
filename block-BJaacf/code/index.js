@@ -2,7 +2,7 @@
 let numbers = [1,2,3,4,5]
 // 2. Calculate the sum of array items and print it to the console using console.log()
 let sum = 0;
-for(let number of numbers)){
+for(let number of numbers){
     sum +=number
     console.log(sum)
 }
