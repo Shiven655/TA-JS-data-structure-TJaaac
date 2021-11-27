@@ -18,18 +18,18 @@ let newUser = user;
 
 2. Answer the following with reason:
 
-- `user == newUser;` // output and reason
-- `user === newUser;`
-- `user.name === newUser.name;`
-- `user.name == newUser.name;`
-- `user.sibling == newUser.sibling;`
-- `user.sibling === newUser.sibling;`
-- `user.sibling == allBrothers;`
-- `user.sibling === allBrothers;`
-- `brothersCopy === allBrothers;`
-- `brothersCopy == allBrothers;`
-- `brothersCopy == user.sibling;`
-- `brothersCopy === user.sibling;`
-- `brothersCopy[0] === user.sibling[0];`
-- `brothersCopy[1] === user.sibling[1];`
-- `user.sibling[1] === newUser.sibling[1];`
+- `user == newUser;` // output and reason // true, premetive data type
+- `user === newUser;`// output and reason // true, premetive data type
+- `user.name === newUser.name;`// output and reason //true, premetive data type
+- `user.name == newUser.name;`// output and reason //true, premetive data type
+- `user.sibling == newUser.sibling;`// output and reason// false, undefined
+- `user.sibling === newUser.sibling;`// output and reason // false, undefined
+- `user.sibling == allBrothers;`// output and reason // false, non-premetive
+- `user.sibling === allBrothers;`// output and reason// false, non-premetive
+- `brothersCopy === allBrothers;`// output and reason // true
+- `brothersCopy == allBrothers;`// output and reason// true
+- `brothersCopy == user.sibling;`// output and reason true, premetive
+- `brothersCopy === user.sibling;`// output and reason// true , premetive
+- `brothersCopy[0] === user.sibling[0];`// output and reason // true, premetive
+- `brothersCopy[1] === user.sibling[1];`// output and reason// true, premetive
+- `user.sibling[1] === newUser.sibling[1];`// output and reason// true, premetive
